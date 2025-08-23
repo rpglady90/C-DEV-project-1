@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Asanti — Software Tester</title>
+
+  <!-- Basic SEO -->
+  <meta name="description"
+    content="Portfolio of Asanti — Software Tester. Projects, background, and ways to get in touch." />
+  <meta property="og:title" content="Asanti — Software Tester" />
+  <meta property="og:description" content="Projects, background, and contact." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:," />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <!-- Header / Navbar -->
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+     <a class="brand" href="#home" aria-label="Go to homepage">Asanti<span class="accent"> </span></a>
+
+      <!-- Mobile menu button -->
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav"
+        aria-label="Toggle navigation">
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light theme">
+              <span class="sun" aria-hidden="true">☀️</span>
+              <span class="moon" aria-hidden="true">🌙</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Home -->
+  <main id="home">
+    <section class="hero section container">
+      <!-- Vanta Globe Background -->
+      <div id="vanta-globe"></div>
+      
+      <div class="hero-text">
+        <h1>Hi, I'm Asanti<span class="accent"> </span></h1>
+        <p class="subtitle">
+          <span class="role-text" data-text="Software Tester"></span>
+          <span class="role-separator"> </span>
+          <span class="role-text" data-text="Web Developer"></span>
+          <span class="role-separator">  </span>
+          <span class="role-text" data-text="Mobile App Specialist"></span>
+        </p>
+        <p class="bio" id="bio-typewriter">
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="#projects">See Projects</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section alt fade-in">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="intro-text">
+              I'm a detailed-oriented QA enthusiast who loves breaking things ( so users don't have to).  Quality Analyst with over 5 years of experience, passionate about uncovering defects and bugs to ensure top-quality products. My expertise spans multiple QA disciplines, and I thrive on the challenge of projects. I focus on clear test plans, clean bug reports, and continuous improvements.
+            </p>
+            
+            <div class="about-grid">
+              <div class="about-card">
+                <h3>🔍 My Expertise</h3>
+                <p>I specialize in Security Testing, API Testing, UI Testing, Mobile Testing, and Market Research. I'm also experienced in Python, prompt engineering with ChatGPT, and innovative testing methodologies.</p>
+              </div>
+              
+              <div class="about-card">
+                <h3>🎯 My Approach</h3>
+                <p>I believe in thorough test planning, clear documentation, and continuous improvement. My goal is to deliver bulletproof software that provides exceptional user experiences.</p>
+              </div>
+              
+              <div class="about-card">
+                <h3>🚀 My Mission</h3>
+                <p>To bridge the gap between development and user satisfaction by ensuring every product meets the highest quality standards before reaching end users.</p>
+              </div>
+            </div>
+            
+            <div class="skills-section">
+              <h3>Technical Skills</h3>
+              <div class="skills-grid">
+                <div class="skill-category">
+                  <h4>Testing Types</h4>
+                  <div class="skill-tags">
+                    <span class="skill-tag">Manual Testing</span>
+                    <span class="skill-tag">Automation Testing</span>
+                    <span class="skill-tag">API Testing</span>
+                    <span class="skill-tag">Security Testing</span>
+                    <span class="skill-tag">Mobile Testing</span>
+                    <span class="skill-tag">Performance Testing</span>
+                  </div>
+                </div>
+                
+                <div class="skill-category">
+                  <h4>Tools & Technologies</h4>
+                  <div class="skill-tags">
+                    <span class="skill-tag">Selenium</span>
+                    <span class="skill-tag">Postman</span>
+                    <span class="skill-tag">JIRA</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">SQL</span>
+                  </div>
+                </div>
+                
+                <div class="skill-category">
+                  <h4>Methodologies</h4>
+                  <div class="skill-tags">
+                    <span class="skill-tag">Agile/Scrum</span>
+                    <span class="skill-tag">Test-Driven Development</span>
+                    <span class="skill-tag">CI/CD</span>
+                    <span class="skill-tag">Risk-Based Testing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="achievements">
+              <h3>Key Achievements</h3>
+              <div class="achievement-list">
+                <div class="achievement-item">
+                  <span class="achievement-icon">🏆</span>
+                  <p>Reduced critical bugs in production by 85% through comprehensive test strategies</p>
+                </div>
+                <div class="achievement-item">
+                  <span class="achievement-icon">⚡</span>
+                  <p>Implemented automated test suites that decreased testing time by 60%</p>
+                </div>
+                <div class="achievement-item">
+                  <span class="achievement-icon">🛡️</span>
+                  <p>Identified and prevented major security vulnerabilities in 3 enterprise applications</p>
+                </div>
+                <div class="achievement-item">
+                  <span class="achievement-icon">👥</span>
+                  <p>Passionate about collaborating with developers to foster mutual growth and knowledge sharing</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="personal-touch">
+              <h3>Beyond Testing</h3>
+              <p>When I'm not hunting for bugs, I enjoy contributing to open-source projects, writing technical blogs about testing best practices, and mentoring junior testers in the community. I believe in continuous learning and staying updated with the latest industry trends and technologies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section fade-in">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid">
+          <!-- Project Card 1 -->
+          <article class="card">
+            <div class="card-media" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=500&fit=crop&q=80" alt="Bug tracking dashboard" />
+            </div>
+            <div class="card-body">
+              <h3>Bug Tracker Test Suite</h3>
+              <p>Automated test scenarios for issue lifecycle: create, assign, resolve, close. Includes edge cases and
+                regression set.</p>
+              <div class="links">
+                <a class="link" href="https://github.com/your-username/bug-tracker-tests" target="_blank"
+                  rel="noopener">GitHub</a>
+                <a class="link" href="#" aria-disabled="true">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="card">
+            <div class="card-media" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop&q=80" alt="E-commerce checkout interface" />
+            </div>
+            <div class="card-body">
+              <h3>E-commerce Checkout QA</h3>
+              <p>Manual + automated tests for cart, checkout, and payments. Clear repro steps, logs, and bug triage
+                notes.</p>
+              <div class="links">
+                <a class="link" href="https://github.com/your-username/checkout-qa" target="_blank"
+                  rel="noopener">GitHub</a>
+                <a class="link" href="#" aria-disabled="true">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article class="card">
+            <div class="card-media" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=500&fit=crop&q=80" alt="API testing dashboard" />
+            </div>
+            <div class="card-body">
+              <h3>REST API Test Harness</h3>
+              <p>Lightweight JS harness for REST endpoints: auth, CRUD, pagination, and error states with clear
+                assertions.</p>
+              <div class="links">
+                <a class="link" href="https://github.com/your-username/api-test-harness" target="_blank"
+                  rel="noopener">GitHub</a>
+                <a class="link" href="#" aria-disabled="true">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section alt fade-in">
+      <div class="container">
+        <h2>Contact</h2>
+        <ul class="contact-list">
+          <li><a href="mailto:rpglady90@yahoo.com">📧 rpglady90@yahoo.com</a></li>
+          <li><a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener">💼 LinkedIn</a></li>
+          <li><a href="tel:+13125814955">📱 +1 (312) 581-4955</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Asanti. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Vanta.js Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+  
+  <!-- TypeIt.js Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/8.7.1/index.umd.js"></script>
+  
+  <!-- Your JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
